@@ -1,10 +1,12 @@
-drone/drone
+.vscode
+__debug_bin
 *.sqlite
 *.txt
 *.out
+*.key
 .env
-extras/
+.env.*
 release/
-
-server/swagger/files/*.json
-.idea/
+scripts/*.go
+docker/**/data
+TODO*
